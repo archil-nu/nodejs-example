@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-sequelize-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "archil": "cross-env NODE_ENV=archil node index.js",
+    "yidan": "cross-env NODE_ENV=yidan node index.js",
+    "published": "cross-env NODE_ENV=production node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.19.0"
+  }
+}
